@@ -19,8 +19,11 @@ body {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-
 }
+
+
+
+
 span {
     color: var(--IRIS);
     font-family: 'Raleway', sans-serif;
@@ -55,6 +58,28 @@ nav a{
 }
 
 
+/* Navigation Interaction */
+.portfolio a:hover,
+.contacts a:hover {
+    color:#6063a3;
+}
+
+.studio a:hover {
+    color: #5c5e7f;
+}
+
+.hero-container button:hover{
+    color: var(--NAVY-BLUE);
+    background-color: #FFF;
+}
+
+.emailandphone a:hover,
+footer p:hover
+{
+    color:#4D5AE5;
+}
+
+
 .emailandphone {
     font-family: Roboto;
     font-size: 16px;
@@ -70,6 +95,9 @@ nav a{
     text-decoration: none;
     color: var(--NAVY-BLUE);
 }
+
+
+/* banner */
 
 .hero-container {
     /* width: 1440px; */
@@ -107,8 +135,12 @@ h1 {
     text-align: center;
     
 }
+/* end of banner */
 
 
+
+
+/* body */
 ul li {
     list-style: none}
 
@@ -132,6 +164,12 @@ ul li {
     padding-left: 0px;
 }
 
+/* end of body */
+
+
+
+
+/* footer */
 .logofooter {
     color: var(--CLOUD, #F4F4FD);
     font-family: Raleway;
@@ -177,5 +215,6 @@ color: var(--CLOUD, #F4F4FD);
     /* 150% */
     letter-spacing: 0.32px;
     width: 264px;
-
 }
+
+/* end of footer */
